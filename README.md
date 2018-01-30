@@ -1,5 +1,5 @@
 # Ruan Reis Fotografia
-Desenvolvimento do site de Ruan Reis - atualmente feito por ele no wix: [ruanreisfotografia.com.br][siteatual]
+Desenvolvimento do site de Ruan Reis - atualmente feito por ele no wix: [ruanreisfotografia.com][siteatual]
 
 ## Para que este repositório serve?
 
@@ -11,5 +11,5 @@ Desenvolvimento do site de Ruan Reis - atualmente feito por ele no wix: [ruanrei
 ## Checklist
 @TODO
 
-[siteatual]: http://ruanreisfotografia.com.br/
+[siteatual]: http://ruanreisfotografia.com
 [post-backup]: http://devcoelho.com/2018/01/29/backup.html
