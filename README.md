@@ -9,7 +9,12 @@ Desenvolvimento do site de Ruan Reis - atualmente feito por ele no wix: [ruanrei
 * **_Backup_** (mais informações [aqui][post-backup])
 
 ## Checklist
-@TODO
+
+##### Fevereiro
+[ X ]  Banco de Dados
+[ X ]  Conexão entre as tabelas (INNER JOIN)
+[  ]  Painel de Controle do Super Usuário
+[  ]  Início do Design da versão final do Site
 
 [siteatual]: http://ruanreisfotografia.com
 [post-backup]: http://devcoelho.com/2018/01/29/backup.html
