@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ruan Reis | Controle</title>
 
-    <?= Asset::css(array('bootstrap.min.css','bootstrap-grid.min.css', 'bootstrap-reboot.min.css', 'app.css'));?>
+    <?= Asset::css(array('bootstrap.min.css','bootstrap-grid.min.css', 'bootstrap-reboot.min.css', 'app.css', 'open-iconic-bootstrap.min.css'));?>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Adicionar História</a>
+                        <a class="nav-link" href="#">Adicionar História <span class="oi oi-plus"></span></a>
                     </li>
             </div>
     </nav>
