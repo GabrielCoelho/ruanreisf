@@ -42,38 +42,32 @@
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link active" href="#">
-                  <span data-feather="home"></span>
-                  Início <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="file"></span>
+                  <span class="oi oi-flag"></span>
                   Categorias
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="shopping-cart"></span>
+                  <span class="oi oi-heart"></span>
                   Histórias
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="users"></span>
+                  <span class="oi oi-people"></span>
                   Usuários
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="bar-chart-2"></span>
+                  <span class="oi oi-person"></span>
                   Super Usuários
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="layers"></span>
+                <span class="oi oi-comment-square"></span>
                   Comentários
                 </a>
               </li>
@@ -88,25 +82,25 @@
             <ul class="nav flex-column mb-2">
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
+                <span class="oi oi-graph"></span>
                   Mensal
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
+                <span class="oi oi-pulse"></span>
                   Última Semana
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
+                <span class="oi oi-thumb-up"></span>
                   Engajamento Social
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
+                <span class="oi oi-dollar"></span>
                   Criar Orçamentos
                 </a>
               </li>
