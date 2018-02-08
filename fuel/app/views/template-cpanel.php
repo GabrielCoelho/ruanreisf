@@ -31,7 +31,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Adicionar História <span class="oi oi-plus"></span></a>
+                        <a class="nav-link" href="#">Adicionar História <span class="oi oi-plus" style="color: olive;"></span></a>
                     </li>
             </div>
     </nav>
