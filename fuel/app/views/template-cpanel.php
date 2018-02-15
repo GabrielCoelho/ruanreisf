@@ -62,9 +62,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link disabled<?php /*disabled*/ ?>" href="http://devcoelho.com/">
                 <span class="oi oi-person"></span>
                 Super Usuários
+                <!-- If it's permissible (superuser[permission]==1) don't show this span --><span class="oi oi-lock-locked"></span>
               </a>
             </li>
             <li class="nav-item">
