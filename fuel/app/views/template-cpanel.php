@@ -19,7 +19,7 @@
 
 <body>
   <nav class="navbar bg-dark navbar-dark navbar-expand-md">
-    <a class="navbar-brand" href="#">NOME USUARIO</a>
+    <a class="navbar-brand" href="/controle">NOME USUARIO</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".MenuCollapse" aria-controls="MenuCollapse"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
     <div class="collapse navbar-collapse MenuCollapse">
       <ul class="navbar-nav">
         <li class="nav-item active d-none d-md-block">
-          <a class="nav-link" href="#">Início</span>
+          <a class="nav-link" href="/controle">Início</span>
           </a>
         </li>
         <li class="nav-item active">
@@ -44,7 +44,7 @@
         <div class="sidebar-sticky">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="controle/categoria">
                 <span class="oi oi-flag" style="color: gold;"></span>
                 Categorias
               </a>

@@ -10,4 +10,10 @@ class Controller_CPanel extends Controller_Template
         $data = array();
         $this->template->content = View::forge('superuser/cpanel-index', $data);
     }
+
+    public function action_cpanel_category()
+    {
+        $data = array();
+        $this->template->content = View::forge('superuser/cpanel-category', $data);
+    }
 }
