@@ -14,7 +14,7 @@ class Controller_CPanel extends Controller_Template
     public function action_cpanel_category()
     {
         $all_category = Model_Categoria::find('all');
-        $data = array($all_category);
+        $data = array('categoria' => $all_category);
         $this->template->content = View::forge('superuser/cpanel-category', $data);
     }
 }
