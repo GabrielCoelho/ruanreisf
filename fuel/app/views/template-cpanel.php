@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<nav class="navbar bg-dark navbar-dark navbar-expand-md">
+  <nav class="navbar bg-dark navbar-dark navbar-expand-md">
     <a class="navbar-brand" href="#">NOME USUARIO</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".MenuCollapse" aria-controls="MenuCollapse"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +40,6 @@
 
   <div class="container-fluid">
     <div class="row">
-      <!-- <button class="btn btn-outline-dark btn-block d-sm-block d-md-none d-lg-none" type="button" data-toggle="collapse" 
-        data-target="#MenuCollapse" aria-expanded="false" aria-controls="MenuCollapse">
-        Mostrar Menu
-      </button> -->
       <nav class="col-xs-auto col-md-2 d-md-block bg-light sidebar collapse MenuCollapse">
         <div class="sidebar-sticky">
           <ul class="nav flex-column">
@@ -113,20 +109,21 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> <!-- Closing Sidebar-Stiky -->
       </nav>
       <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
         <div>
           <?= $content; ?>
         </div>
       </main>
-      
-    </div>
-  </div>
+    </div> <!-- Closing Row -->
+  </div><!-- Closing Container -->
 
   <!-- jQuery  -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
   <?= Asset::js(array('bootstrap.min.js', 'bootstrap.bundle.min.js'))?>
 </body>
 
