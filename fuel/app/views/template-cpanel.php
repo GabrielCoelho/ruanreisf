@@ -18,18 +18,24 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">NOME SUPERUSER</a>
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Início</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Adicionar História
-          <span class="oi oi-plus" style="color:olive"></span>
-        </a>
-      </li>
-    </ul>
+<nav class="navbar bg-dark navbar-dark navbar-expand-md">
+    <a class="navbar-brand" href="#">NOME USUARIO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Início</span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Adicionar História
+            <span class="oi oi-plus" style="color: olive;"></span>
+          </a>
+        </li>
+    </div>
   </nav>
 
   <div class="container-fluid">
