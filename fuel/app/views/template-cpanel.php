@@ -20,13 +20,13 @@
 <body>
 <nav class="navbar bg-dark navbar-dark navbar-expand-md">
     <a class="navbar-brand" href="#">NOME USUARIO</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".MenuCollapse" aria-controls="MenuCollapse"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
+    <div class="collapse navbar-collapse MenuCollapse">
       <ul class="navbar-nav">
-        <li class="nav-item active">
+        <li class="nav-item active d-none d-md-block">
           <a class="nav-link" href="#">Início</span>
           </a>
         </li>
@@ -40,7 +40,11 @@
 
   <div class="container-fluid">
     <div class="row">
-      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+      <!-- <button class="btn btn-outline-dark btn-block d-sm-block d-md-none d-lg-none" type="button" data-toggle="collapse" 
+        data-target="#MenuCollapse" aria-expanded="false" aria-controls="MenuCollapse">
+        Mostrar Menu
+      </button> -->
+      <nav class="col-xs-auto col-md-2 d-md-block bg-light sidebar collapse MenuCollapse">
         <div class="sidebar-sticky">
           <ul class="nav flex-column">
             <li class="nav-item">
@@ -111,12 +115,12 @@
           </ul>
         </div>
       </nav>
-
       <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
         <div>
           <?= $content; ?>
         </div>
       </main>
+      
     </div>
   </div>
 
