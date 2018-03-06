@@ -9,5 +9,5 @@ class Model_Categoria extends Orm\Model
         'nome_categoria'
     );
 
-    protected static $_primary_key  =   'id_categoria';
+    protected static $_primary_key  =   array('id_categoria');
 }
