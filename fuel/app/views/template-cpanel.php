@@ -18,24 +18,18 @@
 </head>
 
 <body>
-  <nav class="navbar bg-dark navbar-dark navbar-expand-md">
-    <a class="navbar-brand mr-5" href="#">NOME USUARIO</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse ml-5 pl-5" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Início</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Adicionar História
-            <span class="oi oi-plus" style="color: olive;"></span>
-          </a>
-        </li>
-    </div>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">NOME SUPERUSER</a>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Início</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Adicionar História
+          <span class="oi oi-plus" style="color:olive"></span>
+        </a>
+      </li>
+    </ul>
   </nav>
 
   <div class="container-fluid">
@@ -45,19 +39,19 @@
           <ul class="nav flex-column">
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span class="oi oi-flag"></span>
+                <span class="oi oi-flag" style="color: gold;"></span>
                 Categorias
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span class="oi oi-heart"></span>
+                <span class="oi oi-heart" style="color: red;"></span>
                 Histórias
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span class="oi oi-people"></span>
+                <span class="oi oi-people" style="color: CadetBlue;"></span>
                 Usuários
               </a>
             </li>
@@ -65,12 +59,13 @@
               <a class="nav-link disabled<?php /*disabled*/ ?>" href="http://devcoelho.com/">
                 <span class="oi oi-person"></span>
                 Super Usuários
-                <!-- If it's permissible (superuser[permission]==1) don't show this span --><span class="oi oi-lock-locked"></span>
+                <!-- If it's permissible (superuser[permission]==1) don't show this span -->
+                <span class="oi oi-lock-locked"></span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span class="oi oi-comment-square"></span>
+                <span class="oi oi-comment-square" style="color: DarkOrange;"></span>
                 Comentários
               </a>
             </li>
@@ -85,25 +80,25 @@
           <ul class="nav flex-column mb-2">
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span class="oi oi-graph"></span>
+                <span class="oi oi-graph" style="color: DeepSkyBlue;"></span>
                 Mensal
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span class="oi oi-pulse"></span>
+                <span class="oi oi-pulse" style="color: DeepSkyBlue;"></span>
                 Última Semana
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span class="oi oi-thumb-up"></span>
+                <span class="oi oi-thumb-up" style="color: DeepSkyBlue;"></span>
                 Engajamento Social
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span class="oi oi-dollar"></span>
+                <span class="oi oi-dollar" style="color: DarkGreen;"></span>
                 Criar Orçamentos
               </a>
             </li>
@@ -112,11 +107,16 @@
       </nav>
 
       <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+        <div>
           <?= $content; ?>
         </div>
+      </main>
     </div>
+  </div>
 
+  <!-- jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <?= Asset::js(array('bootstrap.min.js', 'bootstrap.bundle.min.js'))?>
 </body>
 
