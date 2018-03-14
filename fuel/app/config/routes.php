@@ -4,6 +4,7 @@ return array(
 	'_404_'					=>	'welcome/404',    // The main 404 route
 	'controle'				=>	'cpanel/cpanel_index',
 	'controle/categoria'	=>	'cpanel/cpanel_category',
+	'controle/historias'	=>	'cpanel/cpanel_historia',
 
 
 

@@ -50,7 +50,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="controle/historias">
                 <span class="oi oi-heart" style="color: red;"></span>
                 Histórias
               </a>
