@@ -64,7 +64,8 @@ class Controller_CPanel extends Controller_Template
 
         public function action_add_historia()
         {
-            $data   =   array();
+            $categoryQuery  =   Model_Categoria::find('all');
+            $data   =   array('categoria' => $categoryQuery);
             $this->template->content    =   View::forge('superuser/add-history', $data);
         }
 }
