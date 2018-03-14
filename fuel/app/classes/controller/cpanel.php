@@ -55,6 +55,8 @@ class Controller_CPanel extends Controller_Template
      */
         public function action_historia()
         {
-            
+            $entry  =   Model_Ensaios::find('all');
+            $data   =   array('historia' => $entry);
+            $this->template->content    =   View::forge('superuser/cpanel-history', $data);
         }
 }
