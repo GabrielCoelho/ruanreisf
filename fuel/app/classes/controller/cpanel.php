@@ -53,7 +53,7 @@ class Controller_CPanel extends Controller_Template
     /**
      * História
      */
-        public function action_historia()
+        public function action_cpanel_historia()
         {
             $entry  =   Model_Ensaios::find('all');
             $data   =   array('historia' => $entry);
