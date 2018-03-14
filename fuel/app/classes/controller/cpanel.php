@@ -61,4 +61,10 @@ class Controller_CPanel extends Controller_Template
             $data   =   array('historia' => $entry);
             $this->template->content    =   View::forge('superuser/cpanel-history', $data);
         }
+
+        public function action_add_historia()
+        {
+            $data   =   array();
+            $this->template->content    =   View::forge('superuser/add-history', $data);
+        }
 }

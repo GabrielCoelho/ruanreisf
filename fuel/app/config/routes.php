@@ -7,7 +7,7 @@ return array(
 	'controle/historias'	=>	'cpanel/cpanel_historia',
 
 
-
+	'addHistoria'			=>	'cpanel/add_historia',
 	'addCategory'			=>	'cpanel/add_category',
 	'deleteCategory'		=>	'cpanel/delete_category', 
 	'hello(/:name)?' => array('welcome/hello', 'name' => 'hello'),
