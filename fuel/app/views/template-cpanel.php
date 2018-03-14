@@ -44,13 +44,13 @@
         <div class="sidebar-sticky">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="controle/categoria">
+              <a class="nav-link" href="/controle/categoria">
                 <span class="oi oi-flag" style="color: gold;"></span>
                 Categorias
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="controle/historias">
+              <a class="nav-link" href="/controle/historias">
                 <span class="oi oi-heart" style="color: red;"></span>
                 Histórias
               </a>

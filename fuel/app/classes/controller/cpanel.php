@@ -16,8 +16,10 @@ class Controller_CPanel extends Controller_Template
      */
         public function action_cpanel_category()
         {
+            $entries = array("Newborn", "Ensaio Sexual", "Batizado", "Amigos");
+            $random_pholder = $entries[mt_rand(0, count($entries) - 1)];
             $all_category = Model_Categoria::find('all');
-            $data = array('categoria' => $all_category);
+            $data = array('categoria' => $all_category, 'placeholder' => $random_pholder);
             $this->template->content = View::forge('superuser/cpanel-category', $data);
         }
 

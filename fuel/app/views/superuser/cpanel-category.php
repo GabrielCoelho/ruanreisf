@@ -50,26 +50,7 @@
                 <form action="/addCategory" method="POST">
                     <div class="form-group">
                         <label for="CategoryName">Nome da nova Categoria:</label>
-                        <input type="text" class="form-control" id="CategoryName" name="category" placeholder="ex: Newborn">
-                    </div>
-                    <button type="submit" class="btn btn-outline-success">Adicionar</button>
-                </form>
-            </li>
-        </ul>
-    </div>
-</div>
-
-<div class="card">
-    <div class="card-header">
-        <a data-toggle="collapse" role="button" href="#editarCategoria" aria-expanded="false" aria-controls="editarCategoria">Adicionar uma nova Categoria</a>
-    </div>
-    <div class="collapse" id="editarCategoria">
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-                <form action="/addCategory" method="POST">
-                    <div class="form-group">
-                        <label for="CategoryName">Nome da nova Categoria:</label>
-                        <input type="text" class="form-control" id="CategoryName" name="category" placeholder="ex: Newborn">
+                        <input type="text" class="form-control" id="CategoryName" name="category" placeholder="ex: <?= $placeholder; ?>">
                     </div>
                     <button type="submit" class="btn btn-outline-success">Adicionar</button>
                 </form>
