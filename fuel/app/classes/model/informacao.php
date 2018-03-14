@@ -24,5 +24,5 @@ class Model_Informacao extends Orm\Model
         'outros'
     );
 
-    protected static $_primary_key   =   'id_info_ensaio';
+    protected static $_primary_key   =   array('id_info_ensaio');
 }

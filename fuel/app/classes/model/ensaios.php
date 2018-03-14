@@ -10,5 +10,5 @@ class Model_Ensaios extends Orm\Model
         'nome_historia'
     );
 
-    protected static $_primary_key  =    'id_historia';
+    protected static $_primary_key  =    array('id_historia');
 }

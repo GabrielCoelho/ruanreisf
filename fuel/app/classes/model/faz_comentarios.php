@@ -11,5 +11,5 @@ class Model_Faz_Comentarios extends Orm\Model
         'data_comentario'
     );
 
-    protected static $_primary_key  =   'id_tem_categoria';
+    protected static $_primary_key  =   array('id_tem_categoria');
 }

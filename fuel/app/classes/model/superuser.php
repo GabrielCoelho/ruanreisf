@@ -12,5 +12,5 @@ class Model_Superuser extends Orm\Model
         'permicao'
     );
 
-    protected static $_primary_key   =   'id_superuser';
+    protected static $_primary_key   =   array('id_superuser');
 }

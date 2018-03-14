@@ -10,5 +10,5 @@ class Model_Comentario extends Orm\Model
         'id_usuario'
     );
 
-    protected static $_primary_key   =   'id_imagem';
+    protected static $_primary_key   =   array('id_imagem');
 }

@@ -10,5 +10,5 @@ class Model_Tem_Informacao extends Orm\Model
         'id_historia'
     );
 
-    protected static $_primary_key  =   'id_tem_informacao';
+    protected static $_primary_key  =   array('id_tem_informacao');
 }

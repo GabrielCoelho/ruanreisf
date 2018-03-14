@@ -9,5 +9,5 @@ class Model_Imagem extends Orm\Model
         'caminho_imagem'
     );
 
-    protected static $_primary_key   =   'id_imagem';
+    protected static $_primary_key   =   array('id_imagem');
 }

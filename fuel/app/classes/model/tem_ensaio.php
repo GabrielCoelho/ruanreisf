@@ -10,5 +10,5 @@ class Model_Tem_Ensaio extends Orm\Model
         'id_usuario'
     );
 
-    protected static $_primary_key  =   'id_tem_ensaio';
+    protected static $_primary_key  =   array('id_tem_ensaio');
 }

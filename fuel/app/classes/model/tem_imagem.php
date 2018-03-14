@@ -10,5 +10,5 @@ class Model_Tem_Imagem extends Orm\Model
         'id_imagem'
     );
 
-    protected static $_primary_key  =   'id_tem_imagem';
+    protected static $_primary_key  =   array('id_tem_imagem');
 }

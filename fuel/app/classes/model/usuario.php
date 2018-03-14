@@ -11,5 +11,5 @@ class Model_Usuario extends Orm\Model
         'senha_usuario'
     );
 
-    protected static $_primary_key   =   'id_usuario';
+    protected static $_primary_key   =   array('id_usuario');
 }
