@@ -23,6 +23,9 @@
 
  /*----------  1.0. Media screen min width 1600px  ----------*/
 @media screen and (min-width: 1600px){
+    .px-6{
+        padding-left: 15em;
+    }
 }
 
 /*----------  1.1. Media screen max width 1599px  ----------*/
@@ -34,6 +37,9 @@
     .slider-link{
         bottom:30.5%;
         left: 45rem;
+    }
+    .px-6{
+        padding-left: 15em;
     }
 }
 
@@ -47,6 +53,9 @@
         bottom:36%;
         left: 38rem;
     }
+    .px-6{
+        padding-left: 15em;
+    }
 }
 
 /*----------  1.3. Media screen max width 1299px  ----------*/
@@ -58,6 +67,9 @@
     .slider-link{
         bottom:39%;
         left: 35rem;
+    }
+    .px-6{
+        padding-left: 15em;
     }
 }
 
