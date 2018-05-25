@@ -6,6 +6,7 @@
     <title><?php bloginfo('name');?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" /> 
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"> 
     <link href="https://thenahid.com/owl.carousel.min.css" type="text/css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri();?>/assets/css/fonts.css" />

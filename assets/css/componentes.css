@@ -215,14 +215,22 @@ footer {
     left: 54rem;
 }
 
-/* ============ 4. Sobre =================== */
+/* ============ 3.1. Sobre =================== */
 
-.container-sobre {
+.container-sobre{
     margin: 5% auto;
+}
+.sobre {
+    background-color: #F0F3F6;
+}
+
+.sobre .container{
+    padding: 5% 0;
 }
 
 .imagem-sobre-inicio {
     border-radius: 50%;
+    width: 190px;
 }
 
 .sobre-mim-inicio {
@@ -230,7 +238,54 @@ footer {
     font-family: 'DuePuntoZero', 'Roboto', sans-serif;
     font-size: 1.4em;
 }
-
+.sobre-familia{
+    color: #A2230A;
+    padding-left: 2%;
+    font-family: 'EB Garamond', serif;
+}
 .paragrafo-sobre-inicio {
     color: #b1aeae;
+}
+
+.sobre-fundo{
+    background-color: #fff;
+    display: flex;
+    padding: 2%;
+    margin-top: 3.5%;
+}
+
+.informacao{
+    padding: 3%;
+    align-content: flex-end
+}
+
+.sobre-fundo .informacao .nome{
+    color: #323232;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.sobre-fundo .informacao .titulo{
+    color: #A2230A;
+    font-family: sans-serif;
+}
+
+.sobre-fundo .informacao .mini-descricao{
+    color: #979494;
+}
+
+.sobre-fundo.sobre-mim{
+    display: inline-block;
+    margin-top: 5%;
+    min-height: 92%; /*Responsivo apenas 1300+*/
+}
+
+.sobre-fundo.sobre-mim p{
+    color: #979494;
+    padding: 2%;
+}
+
+.sobre-fundo.sobre-mim img{
+    min-height: 290px;
+    padding: 0 5%;
 }
