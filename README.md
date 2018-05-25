@@ -7,7 +7,8 @@ Após muito pesquisar e conversar com o cliente, decidimos utilizar do Wordpress
 ![Primeiro Print do Site](/uploads/fotoreadme.png)
 
 *Este template é uma remodelação do template criado pelo cliente via plataforma Wix.*
-`style.css`
+
+`style.css`:
 ```css
 /*
 Theme Name: Ruan Reis
