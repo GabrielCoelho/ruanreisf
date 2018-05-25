@@ -19,6 +19,9 @@
     <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri();?>/assets/vendors/open-icons/open-iconic-bootstrap.min.css" />
     <link rel="stylesheet" href="<?= get_template_directory_uri();?>/assets/vendors/aos/css/aos.css" />
     <link rel="stylesheet" type="text/css" href="<?= get_stylesheet_directory_uri();?>/style.css" />
+    <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri();?>/assets/css/app.css" />
+    <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri();?>/assets/css/componentes.css" />
+    <link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri();?>/assets/css/responsivo.css" />
     <?php wp_head();?>
 </head>
 <body>
