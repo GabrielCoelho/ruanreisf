@@ -297,3 +297,21 @@ h6.text-center{
 
 /* ============ 3.2. Contato =================== */
 
+.bg-contato-box{
+    height: 100vh;
+    max-width: 100vw;
+    background: url('../../uploads/bg-contato.jpg') fixed no-repeat;
+}
+
+.bg-contato-box .container span{
+    margin: 0 2%;
+    color: #303131;
+    letter-spacing: 0.08em;
+    position: absolute;
+    top: 43%;
+}
+
+span.texto-contato{
+    font-family: 'Pacifico', hand;
+    font-size: 3em;
+}
