@@ -315,3 +315,43 @@ span.texto-contato{
     font-family: 'Pacifico', hand;
     font-size: 3em;
 }
+
+.barra-social{
+    background: #ffffff;
+    color: #000000;
+}
+
+.barra-social .float-right{
+    margin-top: 5%;
+}
+
+.barra-social i{
+    font-size: 3.45em;
+}
+
+.barra-social a, 
+.barra-social a .float-right{
+    text-decoration: none;
+    color: #000222;
+}
+
+.barra-social a:hover,
+.barra-social a:hover .float-right{
+    color: #A2230A;
+}
+
+.barra-social i.ion-social-facebook{
+    color: #393b96;
+}
+
+.barra-social i.ion-social-whatsapp{
+    color: #00e462;
+}
+
+.barra-social i.ion-social-instagram{
+    color: #cd486b;
+}
+
+.barra-social i.ion-email{
+    color: #f33838;
+}
