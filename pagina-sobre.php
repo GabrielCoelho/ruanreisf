@@ -10,37 +10,55 @@ get_header();
                 <h2 class="sobre-familia">Sobre Nossa Família</h2>
                 <!-- Ruan Reis -->
                 <div class="col-xs-12 sobre-fundo">
-                    <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio"/>
-                    <div class="informacao">
-                        <h4 class="nome">Ruan Reis</h4>
-                        <p class="titulo">Fotógrafo e Papai</p>
-                        <p class="mini-descricao">
-                            Sou papai da Ellie e marido da Ana Paula! A fotografia pra mim é poder marcar histórias com a visão e o coração!
-                        </p>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio"/>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="informacao">
+                                <h4 class="nome">Ruan Reis</h4>
+                                <p class="titulo">Fotógrafo e Papai</p>
+                                <p class="mini-descricao">
+                                    Sou papai da Ellie e marido da Ana Paula! A fotografia pra mim é poder marcar histórias com a visão e o coração!
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Fim Ruan -->
                 <!-- Ana Paula -->
                 <div class="col-xs-12 sobre-fundo">
-                    <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio"/>
-                    <div class="informacao">
-                        <h4 class="nome">Ana Paula</h4>
-                        <p class="titulo">Mamãe e Patroa</p>
-                        <p class="mini-descricao">
-                            Amo ser esposa do Ruan e mamãe da Ellie, eu me apaixono ainda mais a cada dia por eles! Fotografia não é só clicar, é sentir o ambiente, vai muito mais alem.                        
-                        </p>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio"/>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="informacao">
+                                <h4 class="nome">Ana Paula</h4>
+                                <p class="titulo">Mamãe e Patroa</p>
+                                <p class="mini-descricao">
+                                    Amo ser esposa do Ruan e mamãe da Ellie, eu me apaixono ainda mais a cada dia por eles! Fotografia não é só clicar, é sentir o ambiente, vai muito mais alem.                        
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- fim Ana -->
                 <!-- Ellie -->
                 <div class="col-xs-12 sobre-fundo">
-                    <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio"/>
-                    <div class="informacao">
-                        <h4 class="nome">Ellie</h4>
-                        <p class="titulo">Filinha e talvez um dia fotógrafa</p>
-                        <p class="mini-descricao">
-                            Sou Filha dos meus Papais e também sou chefe de tudo isso aqui!
-                        </p>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio"/>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="informacao">
+                                <h4 class="nome">Ellie</h4>
+                                <p class="titulo">Filinha e talvez um dia fotógrafa</p>
+                                <p class="mini-descricao">
+                                    Sou Filha dos meus Papais e também sou chefe de tudo isso aqui!
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
