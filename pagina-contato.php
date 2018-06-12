@@ -69,4 +69,47 @@ get_header();
     </div>
 </div>
 
+<div class="formulario-orcamento">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2 text-center">
+                <h2>Faça um Orçamento</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <label for="nomeCompleto">Nome Completo</label>
+                        <input type="text" name="nomeCompleto" id="nomeCompleto" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-control">
+                        <small class="form-text text-muted">Nós nunca compartilharemos seu e-mail</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="diaEvento">Data do Evento</label>
+                        <input type="date" name="diaEvento" id="diaEvento" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" name="telefone" id="telefone" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="local">Local do Evento</label>
+                        <input type="text" name="local" id="local" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mensagem" name="mensagem" id="mensagem" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="form-control btn btn-dark btn-lg btn-block">Enviar!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php get_footer();?>
