@@ -382,3 +382,15 @@ span.texto-contato{
 .formulario-orcamento form textarea::placeholder{
     color: #464647d2;
 }
+
+/* ============ 3.3. Parceiros =================== */
+
+.bg-parceiro-box{
+    height: 60vh;
+    max-width: 100vw;
+    background: url('../../uploads/grafis.jpg') content-box;
+}
+
+.bg-parceiro-box .centered > .img-fluid{
+    border-radius: 50%;
+}
