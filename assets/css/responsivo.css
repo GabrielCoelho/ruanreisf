@@ -179,4 +179,10 @@
     .header-img-ruan{
         height: 150vh;
     }
+    
+    .bg-parceiro-box .mascara{
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        grid-template-areas: ".... image ....";
+    }
 }
