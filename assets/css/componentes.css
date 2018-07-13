@@ -410,3 +410,13 @@ span.texto-contato{
     margin-top: 12em;
     border-radius: 50%;
 }
+
+.container .row .col-md-4.offset-md-2,
+.container .row .col-md-6.text-center,
+.container .row .col-md-6.text-center strong,
+.container .row .col-md-6.text-center em,
+.container .row .col-md-4.offset-md-2 p,
+.container .row .col-md-4.offset-md-2 p strong{
+    color: #000;
+    font-size: 14px;
+}

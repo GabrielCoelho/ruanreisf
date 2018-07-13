@@ -52,6 +52,19 @@ $(document).ready(function(){
         dots:true,
     });
 
+    var sliderProdutos = $('#carousel-produto-parceiro');
+    sliderProdutos.owlCarousel({
+        animateOut: 'slideOutRight',
+        animateIn: 'slideInLeft',
+        items:1,
+        autoHeight:true,
+        autoHeightClass: 'owl-height',
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:5500,
+        dots:true,
+    });
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
