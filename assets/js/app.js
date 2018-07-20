@@ -42,8 +42,8 @@ $(document).ready(function(){
 
     var slider = $('#slider-ensaio');
     slider.owlCarousel({
-        animateOut: 'slideInRight',
-        animateIn: 'slideOutLeft',
+        animateOut: 'slideOutLeft',
+        animateIn: 'slideInRight',
         items:1,
         smartSpeed:500,
         loop:true,
