@@ -19,13 +19,16 @@ get_header(); ?>
 <div class="background-posts">
     <div class="container py-3">
         <div class="row justify-content-center">
-            <h2 class="titulo-arquivo">Todos</h2>
+            <h2 class="titulo-arquivo">Casamentos</h2>
         </div>
     </div>
 
     <?php 
-    // query para pegar os posts
-        $querySearch = new WP_Query('all');
+    // query para pegar os posts da categoria "casamento"
+        $argumentos = array(
+            'category_name' => 'casamento'
+        );
+        $querySearch = new WP_Query($argumentos);
     ?>
 
     <div class="container mt-2">

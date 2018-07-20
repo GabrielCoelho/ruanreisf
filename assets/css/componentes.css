@@ -432,6 +432,10 @@ span.texto-contato{
     color: #fff;
 }
 
+.menu-arquivo:hover{
+    color: #f2f2f2;
+}
+
 .titulo-arquivo{
     text-transform: uppercase;
     font-family: "EB Garamond", serif;
