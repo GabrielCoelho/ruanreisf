@@ -39,7 +39,15 @@
                     
                 <div class="collapse navbar-collapse" id="menuNavBar">
                     <ul class="navbar-nav mr-auto px-6">
-                        <li class="nav-item">
+                        <?php
+                            $args = array(
+                                'menu' => 'principal',
+                                'items_wrap' => '%3$s',
+                                'container' => false
+                            );
+                            wp_nav_menu( $args );
+                        ?>
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#">Início
                             </a>
                         </li>
@@ -54,7 +62,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">O que Fazemos</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
