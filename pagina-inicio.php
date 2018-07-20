@@ -5,8 +5,8 @@ get_header();
 
 <div class="header-img-ruan">
     <div class="logo-centralizado">
-        <img src="<?= get_template_directory_uri();?>/uploads/logo-header.png" alt="Ruan Reis Fotografia" class="img-fluid" id="logo-centralizado-img" />
-        <a role="button" href="#" class="btn btn-outline-light" id="logo-centralizado-button">Saiba Mais</a>
+        <img src="<?= get_template_directory_uri();?>/uploads/logo-header.png" alt="Ruan Reis Fotografia" class="img-fluid animated fadeInRight" id="logo-centralizado-img" />
+        <a role="button" href="#" class="btn btn-outline-light animated fadeInLeft" id="logo-centralizado-button">Saiba Mais</a>
     </div>
 
     <a href="#slider-ensaio"><div class="arrow bounce"></div></a>

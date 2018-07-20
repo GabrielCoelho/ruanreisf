@@ -62,16 +62,35 @@ footer {
     position: relative;
 }
 
+@-webkit-keyframes opacityIndex {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-moz-keyframes opacityIndex {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-o-keyframes opacityIndex {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes opacityIndex {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
 .logo-centralizado img {
     display: block;
     padding-top: 7%;
     margin: 0 auto;
+    animation-duration: 2s;
 }
 
 .logo-centralizado a.btn {
     display: block;
     max-width: 150px;
     margin: 0 auto;
+    animation-duration: 2s;
 }
 
 @-moz-keyframes bounce {
@@ -157,6 +176,13 @@ footer {
 /*
 *Slider de Testemunhos (Owl)
 */
+
+#testemunho-slider{
+    -webkit-animation: opacityIndex 7s; /* Safari 4+ */
+  -moz-animation:    opacityIndex 7s; /* Fx 5+ */
+  -o-animation:      opacityIndex 7s; /* Opera 12+ */
+  animation:         opacityIndex 7s; /* IE 10+, Fx 29+ */
+}
 
 .testemunho-carousel {
     color: #fff;
@@ -453,6 +479,11 @@ span.texto-contato{
     padding: 0.3em;
     text-align: center;
     max-height: 500px;
+    height: 250px;
+}
+
+.fundo-branco-post .card-img-top{
+    height: 180px;
 }
 
 .anchor-post{
@@ -468,4 +499,58 @@ span.texto-contato{
     color: #222333;
     text-decoration: none;
     font-style: italic;
+}
+
+/* ============ 3.5. Página de Postagem  =================== */
+
+.fundo-imagem{
+    width: 100vw;
+    height: 70vh;
+    background: no-repeat fixed bottom;
+}
+
+.mask{
+    background-color: rgba(0,0,0,0.3);
+    height: 70vh;
+}
+
+.centered{
+    margin: auto;
+    width: 50%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.post_title{
+    font-family: "EB Garamond", "Arial", sans-serif;
+    font-weight: bolder;
+    font-size: 4em;
+    text-shadow: #000 1px 2px 1px;
+}
+
+.post_description{
+    font-style: italic;
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.date_n_local{
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.container.fundo-branco-post .row{
+    justify-content: center;
+    padding: 20px;
+}
+
+.depoimento{
+    text-align: center;
+    color: #000000;
+}
+
+.o_conteudo{
+    color: #000;
+    padding-top: 15px;
 }

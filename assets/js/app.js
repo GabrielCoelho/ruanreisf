@@ -1,15 +1,4 @@
 $(document).ready(function(){
-    let logo_header = $('#logo-centralizado-img');
-    let logo_button = $('#logo-centralizado-button');
-    for (opacity = 0; opacity < 1.1; opacity = opacity + 0.1) {     
-        console.log(opacity);      
-        setTimeout(function(){logo_header.style.opacity = opacity;},500)                       
-    }  
-    logo_header.addClass('animated slideInRight');
-    for (opacity = 0; opacity < 1.1; opacity = opacity + 0.1) {           
-        setTimeout(function(){logo_button.style.opacity = opacity + '!important';},500)                       
-    } 
-    logo_button.addClass('animated slideInLeft');
     $('#sobre-inicio').addClass('animated slideInRightBig')
     $("#testemunho-slider").owlCarousel({
         animateOut: 'fadeOutLeft',

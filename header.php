@@ -30,7 +30,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-darker">
         <div class="container">
             <div class="row">
-                <a href="/" class="navbar-brand">
+                <a href="/ruanreisfotografia/" class="navbar-brand">
                     <img src="<?= get_template_directory_uri();?>/uploads/logo.png" alt="Ruan Reis">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuNavBar" aria-controls="menuNavBar"
