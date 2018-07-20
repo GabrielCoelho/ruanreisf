@@ -420,3 +420,48 @@ span.texto-contato{
     color: #000;
     font-size: 14px;
 }
+
+/* ============ 3.4. Arquivos (O que fazemos)  =================== */
+
+.bg_black{
+    background-color: #000;
+}
+
+.menu-arquivo{
+    list-style-type: none;
+    color: #fff;
+}
+
+.titulo-arquivo{
+    text-transform: uppercase;
+    font-family: "EB Garamond", serif;
+    font-weight: bolder;
+    color: #000;
+    letter-spacing: 0.25em;
+}
+
+.background-posts{
+    background-color: #f0f3f6;
+}
+
+.fundo-branco-post{
+    background: #ffffff;
+    padding: 0.3em;
+    text-align: center;
+    max-height: 500px;
+}
+
+.anchor-post{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.anchor-post:hover{
+    color: #222333;
+    text-decoration: none;
+    font-style: italic;
+}
