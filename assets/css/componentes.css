@@ -218,7 +218,7 @@ footer {
 .slider-ensaios .item {
     max-height: 578px;
     width: 100vw;
-    position: relative;
+    justify-content: center;
 }
 
 .slider-ensaios .owl-dots>.owl-dot {
@@ -226,20 +226,11 @@ footer {
 }
 
 .slider-nome {
-    position: absolute;
     color: #fff7f7;
     font-size: 5em;
     font-family: 'DuePuntoZeroLight', sans-serif;
     font-weight: 500;
-    top: 50%;
-    left: 43.5rem;
-    background: rgba(25, 25, 25, 0.23)
-}
-
-.slider-link {
-    position: absolute;
-    bottom: 25.5%;
-    left: 54rem;
+    background: rgba(25, 25, 25, 0.23);
 }
 
 h6.text-center{
