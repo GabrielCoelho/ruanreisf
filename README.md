@@ -25,39 +25,39 @@ Version: 1.0
 ## Passos para Instalação
 
 1. Criar as páginas
-    1.1. Início
-    1.2. Sobre
-    1.3. Contato
-    1.4. Parceiros
-    1.5. O Que Fazemos
+    1. Início
+    2. Sobre
+    3. Contato
+    4. Parceiros
+    5. O Que Fazemos
 2. Criar Categorias (Post>Categorias)
-    2.1. Casamento
-    2.2. Aniversario
-    2.3. Familia
-    2.4. Ensaio
+    1. Casamento
+    2. Aniversario
+    3. Familia
+    4. Ensaio
 3. Instalar Custom Field Suite (CFS)
 4. Criar Field de Slider:
-    4.1. Loop (slider_inicial)
-    4.2. Nome Ensaio
-    4.3. Imagem Slider
-    4.4. Link
+    1. Loop (slider_inicial)
+    2. Nome Ensaio
+    3. Imagem Slider
+    4. Link
 5.  Criar Field dos Posts:
-    5.1. Tab 1
-        5.1.1. Nome do Ensaio
-        5.1.2. Descricao do Ensaio
-        5.1.3. Data e Local
-    5.2. Tab 2
-        5.2.1. Imagem Cliente
-        5.2.2. Depoimento Cliente
+    1. Tab 1
+        1. Nome do Ensaio
+        2. Descricao do Ensaio
+        3. Data e Local
+    2. Tab 2
+        1. Imagem Cliente
+        2. Depoimento Cliente
 6. Instalar Plugin de Galeria "WordPress Gallery Plugin" by Imagely
-    6.1. Gallery Settings > Basic Thumbnails
-        6.1.1. Override Yes - 1280x720
-        6.1.2. Images per page - 0
-        6.1.3. Modelo - gallery.php
-        6.1.4. Show Slide Link - no
-    6.2. Other Options > Lightbox
-        6.2.1. Shutter
-    6.3. Other Options > Miscellaneous
-        6.3.1. Permalink -> ruanreis-gallery
-    6.4. Other options > Image Options
-        6.4.1. Resize: 1280x720 100%
+    1. Gallery Settings > Basic Thumbnails
+        1. Override Yes - 1280x720
+        2. Images per page - 0
+        3. Modelo - gallery.php
+        4. Show Slide Link - no
+    2. Other Options > Lightbox
+        1. Shutter
+    3. Other Options > Miscellaneous
+        1. Permalink -> ruanreis-gallery
+    4. Other options > Image Options
+        1. Resize: 1280x720 100%
