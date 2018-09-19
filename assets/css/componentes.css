@@ -57,9 +57,15 @@ footer {
 /* ============ 3. Index =============== */
 
 .header-img-ruan {
-    background: #000 url(../../uploads/focus_ruan.jpg) no-repeat center;
+    /* background: #000 url(../../uploads/focus_ruan.jpg) no-repeat center; */
     height: 100vh;
-    position: relative;
+    /* position: relative; */
+}
+
+.informacoes-index{
+    position: absolute;
+    z-index: 99999;
+    width: 100vw;
 }
 
 @-webkit-keyframes opacityIndex {
@@ -185,10 +191,12 @@ footer {
 }
 
 .testemunho-carousel {
-    color: #fff;
+    color: #000;
     margin-top: 5%;
-    position: absolute;
-    bottom: 0;
+}
+
+.testemunho-carousel p{
+    color: #000;
 }
 
 .responsive-height {
@@ -197,7 +205,7 @@ footer {
 }
 
 .testemunho-conteudo {
-    width: 600px;
+    width: 570px;
 }
 
 .imagem-testemunho {
@@ -215,8 +223,17 @@ footer {
     font: inherit;
 }
 
+.bg-grey{
+    background-color: rgb(240, 243, 246);
+}
+
+.bg-grey .container:first-of-type, .bg-grey .container-sobre{
+    background-color: #fff;
+    padding-top: 50px;
+}
+
 .slider-ensaios .item {
-    max-height: 578px;
+    max-height: 100vh;
     width: 100vw;
     justify-content: center;
 }
@@ -224,6 +241,7 @@ footer {
 .slider-ensaios .owl-dots>.owl-dot {
     color: #000;
 }
+
 
 .slider-nome {
     color: #fff7f7;
@@ -240,7 +258,7 @@ h6.text-center{
 /* ============ 3.1. Sobre =================== */
 
 .container-sobre{
-    margin: 5% auto;
+    margin-top: 5%;
 }
 .sobre {
     background-color: #F0F3F6;
@@ -252,7 +270,7 @@ h6.text-center{
 
 .imagem-sobre-inicio {
     border-radius: 50%;
-    max-width: 155px;
+    max-width: 260px;
 }
 
 .sobre-mim-inicio {

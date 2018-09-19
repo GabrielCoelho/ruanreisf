@@ -161,9 +161,9 @@
         
     }
 
-    .slider-ensaios{
+    /* .slider-ensaios{
         display: none !important;
-    }
+    } */
 
     .bg-parceiro-box .mascara{
         grid-template-columns: 35% 30% 35%;
@@ -180,9 +180,9 @@
         display: none;
     }
 
-    .slider-ensaios{
+    /* .slider-ensaios{
         display: none !important;
-    }
+    } */
 
     .bg-parceiro-box .mascara{
         grid-template-columns: 40% 20% 40%;
@@ -198,9 +198,9 @@
         height: 150vh;
     }
 
-    .slider-ensaios{
+    /* .slider-ensaios{
         display: none !important;
-    }
+    } */
 
     .testemunho-conteudo{
         max-width: 100vw;

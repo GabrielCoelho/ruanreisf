@@ -4,8 +4,8 @@ $(document).ready(function(){
         animateOut: 'fadeOutLeft',
         animateIn: 'lightSpeedIn',
         items:2,
-        margin:30,
-        stagePadding:30,
+        // margin:30,
+        // stagePadding:30,
         smartSpeed:450,
         rewind:true,
         autoplay:true,
@@ -38,7 +38,7 @@ $(document).ready(function(){
         loop:true,
         autoplay:true,
         autoplayTimeout:3500,
-        dots:true,
+        dots:false,
     });
 
     var sliderProdutos = $('#carousel-produto-parceiro');
