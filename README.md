@@ -30,6 +30,7 @@ Version: 1.0
     3. Contato
     4. Parceiros
     5. O Que Fazemos
+    6. Criar "Menu Principal"
 2. Criar Categorias (Post>Categorias)
     1. Casamento
     2. Aniversario

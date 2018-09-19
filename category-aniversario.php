@@ -1,6 +1,4 @@
-<?php 
-// Template Name: OqFazemos
-get_header(); ?>
+<?php get_header(); ?>
 
 <div class="bg_black">
     <div class="container">

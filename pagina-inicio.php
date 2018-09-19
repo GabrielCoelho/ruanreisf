@@ -2,14 +2,15 @@
 // Template Name: Inicio
 get_header();
 
-$slider = CFS()->get('slider_inicial')
+$depoimentos = CFS()->get('adicionar_depoimento');
+$slider = CFS()->get('slider_inicial');
 ?>
 
     <div class="header-img-ruan">
         <div class="logo-centralizado">
             <img src="<?= get_template_directory_uri();?>/uploads/logo-header.png" alt="Ruan Reis Fotografia" class="img-fluid animated fadeInRight"
                 id="logo-centralizado-img" />
-            <a role="button" href="#" class="btn btn-outline-light animated fadeInLeft" id="logo-centralizado-button">Saiba Mais</a>
+            <a role="button" href="#container-sobre" class="btn btn-outline-light animated fadeInLeft" id="logo-centralizado-button">Saiba Mais</a>
         </div>
 
         <a href="#slider-ensaio">
@@ -17,23 +18,19 @@ $slider = CFS()->get('slider_inicial')
         </a>
 
         <div id="testemunho-slider" class="owl-carousel owl-theme testemunho-carousel">
-            <?php for($i=0;$i<5;$i++){?>
-            <div class="testemunho-conteudo item row">
-                <div class="col-sm-3 col-xs-12">
-                    <img src="<?= get_template_directory_uri();?>/uploads/gabriel-taina.jpg" alt="Imagem Testemunho" class="imagem-testemunho">
-                    <a href="#" class="btn btn-outline-dark btn-block">Ver Ensaio</a>
+            <?php foreach ( array_reverse($depoimentos) as $d) {?>
+                <div class="testemunho-conteudo item row">
+                    <div class="col-sm-3 col-xs-12">
+                        <img src="<?= $d['foto_ensaio']?>" alt="Imagem Depoimento" class="imagem-testemunho">
+                        <a href="<?= $d['link_ensaio']?>" class="btn btn-outline-dark btn-block">Ver Ensaio</a>
+                    </div>
+                    <div class="col-sm-9 col-xs-12">
+                        <p>
+                            <?= $d['depoimento']?>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-sm-9 col-xs-12">
-                    <p>
-                        Nosso amigo Ruan Reis, nosso querido fotografo, sempre profissional, trazendo uma abordagem de fotografia inovadora, muito
-                        mais divertida, de forma amiga, tornando toda a experiencia muito mais natural , e confortável. Nossa
-                        maior dificuldade era a timidez, e Ruan Reis com sua forma simpática de atuar, nos impressionou assim
-                        nos fazendo sentir muito mais confortável. Agradecemos muito pelo seu trabalho, sua dedicação , preços
-                        acessíveis, e profissionalismo, marcando eternamente este momento de felicidade.
-                    </p>
-                </div>
-            </div>
-            <?php } ?>
+            <?php }?>
         </div>
     </div>
 
@@ -79,7 +76,7 @@ $slider = CFS()->get('slider_inicial')
         </div>
     </div>
 
-        <div class="container container-sobre">
+        <div class="container container-sobre" id="container-sobre">
             <div class="row">
                 <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="1500">
                     <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio">

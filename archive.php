@@ -1,11 +1,11 @@
 <?php 
-// Template Name: OqFazemos
+// Template Name: OqueFazemos
 get_header(); ?>
 
 <div class="bg_black">
     <div class="container">
         <div class="row justify-content-center">
-            <ul class="d-inline-flex text-center menu-arquivo">
+            <ul class="d-inline-flex text-center menu-arquivo nav justify-content-center">
                 <li class="pr-4"><a href="/ruanreisfotografia/category/ensaio" class="menu-arquivo"> Ensaios </a></li>
                 <li class="pr-4"><a href="/ruanreisfotografia/category/casamento" class="menu-arquivo"> Casamentos </a></li>
                 <li class="pr-4"><a href="/ruanreisfotografia/category/aniversario" class="menu-arquivo"> Aniversários </a></li>
