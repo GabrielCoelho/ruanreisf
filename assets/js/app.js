@@ -31,13 +31,13 @@ $(document).ready(function(){
 
     var slider = $('#slider-ensaio');
     slider.owlCarousel({
-        animateOut: 'slideOutLeft',
-        animateIn: 'slideInRight',
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
         items:1,
-        smartSpeed:500,
+        smartSpeed:1000,
         loop:true,
         autoplay:true,
-        autoplayTimeout:3500,
+        autoplayTimeout:5200,
         dots:false,
     });
 

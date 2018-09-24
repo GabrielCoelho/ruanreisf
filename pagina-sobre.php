@@ -8,14 +8,14 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio" />
+                <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio2" />
                 <h4 style="padding-left: 20px;">
                     <strong>Ruan Reis</strong>
                 </h4>
                 <p style="color: #A2230A; padding-left: 20px;">Fotógrafo Líder</p>
             </div>
             <div class="col-md-4">
-                <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio" />
+                <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio2" />
                 <h4 style="padding-left: 20px;">
                     <strong>André Santos</strong>
                 </h4>
@@ -31,7 +31,7 @@ get_header();
                 <div class="col-xs-12 sobre-fundo">
                     <div class="row">
                         <div class="col-sm-3">
-                            <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio"/>
+                            <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio2"/>
                         </div>
                         <div class="col-sm-9">
                             <div class="informacao">
@@ -49,7 +49,7 @@ get_header();
                 <div class="col-xs-12 sobre-fundo">
                     <div class="row">
                         <div class="col-sm-3">
-                            <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio"/>
+                            <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio2"/>
                         </div>
                         <div class="col-sm-9">
                             <div class="informacao">
@@ -67,7 +67,7 @@ get_header();
                 <div class="col-xs-12 sobre-fundo">
                     <div class="row">
                         <div class="col-sm-3">
-                            <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio"/>
+                            <img src="<?= get_template_directory_uri();?>/uploads/ruanreis-sobre.jpg" alt="Ruan Reis" class="imagem-sobre-inicio2"/>
                         </div>
                         <div class="col-sm-9">
                             <div class="informacao">

@@ -255,6 +255,11 @@ h6.text-center{
     color: #000000;
 }
 
+.imagem-sobre-inicio {
+    border-radius: 50%;
+    max-width: 260px;
+}
+
 /* ============ 3.1. Sobre =================== */
 
 .container-sobre{
@@ -268,9 +273,9 @@ h6.text-center{
     padding: 5% 0;
 }
 
-.imagem-sobre-inicio {
+.imagem-sobre-inicio2 {
     border-radius: 50%;
-    max-width: 260px;
+    max-width: 155px;
 }
 
 .sobre-mim-inicio {
